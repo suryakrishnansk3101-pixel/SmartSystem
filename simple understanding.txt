@@ -1,0 +1,603 @@
+# Smart AI-Powered Service Desk System
+
+## 1. Project Title
+
+Smart AI-Powered Service Desk System using NLP, RAG and GPT-based Ticket Classification
+
+---
+
+# 2. Problem Statement
+
+Organizations receive a large number of support requests related to IT services, HR queries, and Facility Management. Customers often struggle to find answers quickly and support teams spend significant time manually categorizing and handling tickets.
+
+The proposed Smart AI Service Desk System aims to reduce response time and improve customer satisfaction by providing:
+
+* FAQ Search
+* AI-powered Knowledge Base Search using RAG
+* Automated Ticket Classification
+* Ticket Management System
+* Agent Dashboard
+* Administrative Management Portal
+
+The system enables users to search for answers before creating tickets and automatically routes tickets to the correct department with appropriate priority.
+
+---
+
+# 3. Objectives
+
+### Primary Objectives
+
+* Provide self-service support through FAQ Search.
+* Implement AI-powered Knowledge Base Search using RAG.
+* Automatically classify support requests.
+* Automatically assign ticket priority.
+* Enable communication between customers and agents.
+* Provide dashboards for support agents.
+* Manage users, agents, FAQs, and RAG content through an admin panel.
+
+### Secondary Objectives
+
+* Reduce manual effort.
+* Improve ticket resolution time.
+* Increase customer satisfaction.
+* Improve support team productivity.
+
+---
+
+# 4. Scope of the Project
+
+## Included
+
+### Customer Portal
+
+* FAQ Search
+* Knowledge Base Search
+* User Registration/Login
+* Ticket Creation
+* Ticket Tracking
+* View Ticket Responses
+
+### Agent Portal
+
+* Agent Login
+* Ticket Queue Management
+* Respond to Customer Requests
+* Dashboard Analytics
+
+### Admin Portal
+
+* User Management
+* Agent Management
+* FAQ Management
+* Knowledge Base Management
+
+### AI Features
+
+* GPT-based Ticket Classification
+* GPT-based Priority Assignment
+* Retrieval Augmented Generation (RAG)
+
+## Excluded
+
+* Voice Support
+* Multi-language Translation
+* Mobile Application
+
+---
+
+# 5. System Users
+
+## Customer
+
+Can:
+
+* Search FAQs
+* Search Knowledge Base
+* Create Support Tickets
+* Track Tickets
+* View Responses
+
+---
+
+## Support Agent
+
+Can:
+
+* Login
+* View Ticket Queue
+* Filter Requests
+* Respond to Customers
+* Update Ticket Status
+
+---
+
+## Administrator
+
+Can:
+
+* Manage Users
+* Manage Agents
+* Manage FAQ Content
+* Manage Knowledge Base Documents
+
+---
+
+# 6. Functional Requirements
+
+## FR-1 Home Page
+
+### Components
+
+#### FAQ Search
+
+Allows users to search predefined FAQs.
+
+#### Knowledge Base Search
+
+Uses RAG to retrieve relevant information from stored documents.
+
+#### Contact Agent Button
+
+Displayed when user cannot find an answer.
+
+Button Action:
+
+* Ask user to Login/Register.
+* Redirect to Ticket Management Page.
+
+---
+
+## FR-2 User Authentication
+
+### Registration
+
+Fields:
+
+* Name
+* Email
+* Password
+
+### Login
+
+Fields:
+
+* Email
+* Password
+
+Authentication:
+
+* JWT Token
+
+---
+
+## FR-3 Ticket Management
+
+### Create Ticket
+
+Fields:
+
+* Subject
+* Description
+
+Upon Submission:
+
+GPT analyzes ticket and assigns:
+
+Request Type:
+
+* IT
+* HR
+* Facilities
+
+Priority:
+
+* High
+* Medium
+* Low
+
+---
+
+### View Tickets
+
+Customer can see:
+
+* Ticket Number
+* Subject
+* Status
+
+Status Colors:
+
+* Open → Red
+* Closed → Green
+
+---
+
+### Ticket Details
+
+Displays:
+
+* Subject
+* Description
+* Status
+* Agent Response
+* Agent Name
+* Created Date
+
+---
+
+## FR-4 AI Ticket Classification
+
+### Input
+
+Ticket Description
+
+### Output
+
+Request Type
+
+Examples:
+
+Password reset → IT
+
+Leave request → HR
+
+Air conditioner issue → Facilities
+
+---
+
+### Priority Classification
+
+Examples:
+
+Server Down → High
+
+System Slow → Medium
+
+General Inquiry → Low
+
+---
+
+## FR-5 Agent Login
+
+URL:
+
+/agent
+
+Separate login page for support agents.
+
+---
+
+## FR-6 Agent Dashboard
+
+Displays:
+
+* Total Tickets
+* Open Tickets
+* Closed Tickets
+* Today's Queue Size
+* Ticket Distribution by Category
+
+Charts:
+
+* Pie Chart
+* Bar Chart
+* Line Graph
+
+---
+
+## FR-7 Agent Queue
+
+Filter Options:
+
+* Request Type
+* Priority
+* Subject
+* Status
+
+Request Types:
+
+* IT
+* HR
+* Facilities
+
+---
+
+### Ticket Conversation
+
+Chat Interface
+
+Shows:
+
+Customer Message
+
+Agent Response
+
+Conversation History
+
+Agent Reply Box
+
+Status Update
+
+---
+
+## FR-8 Admin Portal
+
+### User Management
+
+Admin can:
+
+* View Users
+* Edit Users
+* Disable Users
+
+---
+
+### Agent Management
+
+Admin can:
+
+* Create Agent
+* Edit Agent
+* Delete Agent
+
+Only Admin can create agents.
+
+---
+
+### FAQ Management
+
+Admin can:
+
+* Create FAQ
+* Edit FAQ
+* Delete FAQ
+
+---
+
+### RAG Content Management
+
+Admin can:
+
+* Upload PDFs
+* Upload DOCX Files
+* Delete Documents
+* Re-index Documents
+
+---
+
+# 7. Non-Functional Requirements
+
+### Performance
+
+Search response < 3 seconds
+
+### Security
+
+JWT Authentication
+
+Role-Based Access Control
+
+Password Encryption
+
+### Scalability
+
+Support 1000+ concurrent users
+
+### Availability
+
+99% uptime
+
+### Reliability
+
+Automatic backup
+
+### Usability
+
+Responsive UI
+
+Mobile-friendly design
+
+---
+
+# 8. System Architecture
+
+Frontend
+↓
+React.js
+
+Backend API
+↓
+FastAPI
+
+AI Layer
+↓
+OpenAI GPT
+
+RAG Layer
+↓
+Sentence Transformers
++
+Vector Database
+
+Database
+↓
+PostgreSQL
+
+Document Storage
+↓
+Local Storage / AWS S3
+
+---
+
+# 9. Technology Stack
+
+Frontend
+
+* React.js
+* Tailwind CSS
+* Axios
+* React Router
+
+Backend
+
+* FastAPI
+* Python
+
+AI/NLP
+
+* OpenAI GPT
+* LangChain
+* Sentence Transformers
+
+Vector Database
+
+* ChromaDB
+
+Database
+
+* PostgreSQL
+
+Authentication
+
+* JWT
+
+Deployment
+
+* Docker
+* Render / AWS
+
+---
+
+# 10. Database Design
+
+Users Table
+
+* user_id
+* name
+* email
+* password
+* role
+
+Tickets Table
+
+* ticket_id
+* user_id
+* subject
+* description
+* request_type
+* priority
+* status
+* created_at
+
+Messages Table
+
+* message_id
+* ticket_id
+* sender
+* message
+* timestamp
+
+FAQs Table
+
+* faq_id
+* question
+* answer
+
+KnowledgeBase Table
+
+* document_id
+* file_name
+* uploaded_at
+
+Agents Table
+
+* agent_id
+* name
+* email
+* department
+
+---
+
+# 11. API Design
+
+POST /register
+
+POST /login
+
+GET /faqs
+
+POST /search-rag
+
+POST /tickets
+
+GET /tickets
+
+GET /tickets/{id}
+
+POST /tickets/{id}/reply
+
+GET /agent/dashboard
+
+GET /agent/queue
+
+POST /agent/reply
+
+GET /admin/users
+
+POST /admin/agents
+
+POST /admin/upload-document
+
+POST /admin/faq
+
+---
+
+# 12. UI Pages
+
+Customer
+
+1. Home Page
+2. Login Page
+3. Register Page
+4. Ticket List Page
+5. Ticket Detail Page
+
+Agent
+
+1. Agent Login
+2. Dashboard
+3. Queue Page
+4. Ticket Chat Page
+
+Admin
+
+1. Admin Dashboard
+2. User Management
+3. Agent Management
+4. FAQ Management
+5. RAG Content Management
+
+---
+
+# 13. Expected Output
+
+The system should:
+
+* Answer customer questions using FAQ Search.
+* Answer knowledge-based queries using RAG.
+* Automatically classify tickets.
+* Automatically prioritize tickets.
+* Enable customer-agent communication.
+* Provide dashboards and analytics.
+* Allow complete administration of support operations.
+
+________________________________________
+Why PostgreSQL?
+PostgreSQL was selected because it provides:
+Reliability
+Ensures safe storage of critical business data.
+Scalability
+Can efficiently handle thousands of users and tickets.
+Security
+Supports role-based permissions and secure authentication.
+

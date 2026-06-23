@@ -1,0 +1,198 @@
+question,answer,category
+How do I register?,Click Register and fill in your details.,Account
+How do I login?,Enter your email and password.,Account
+How do I logout?,Click the Logout button.,Account
+How do I change my email?,Go to Profile Settings and update your email.,Account
+How do I update my profile?,Open Profile and edit your details.,Account
+How do I reset my password?,Use Forgot Password.,Password
+I forgot my password what should I do?,Reset it using Forgot Password.,Password
+Why is my password not working?,Check case sensitivity and try again.,Password
+Can I change my password?,Yes from Account Settings.,Password
+How do I create a ticket?,Use the Create Ticket page.,Tickets
+How do I view my tickets?,Open My Tickets.,Tickets
+How do I close a ticket?,Click Close Ticket.,Tickets
+How do I reopen a ticket?,Contact support or use Reopen option.,Tickets
+What is ticket priority?,Priority defines urgency.,Tickets
+How do I contact support?,Submit a support ticket.,Support
+What are support hours?,Support is available during business hours.,Support
+How do I upload a document?,Use the Upload button.,Knowledge Base
+How do I search documents?,Use the search box.,Knowledge Base
+How do I download documents?,Click Download.,Knowledge Base
+Why can't I access a document?,Check your permissions.,Knowledge Base
+Why is the system slow?,Check your network connection.,System
+How do I clear browser cache?,Use browser settings.,System
+Which browsers are supported?,"Chrome, Edge, and Firefox.",System
+Can I use mobile access?,Yes if enabled by admin.,System
+How do I report a bug?,Create a support ticket.,Support
+How do I book a meeting room?,Use room booking system.,Facilities
+AC is not working,Raise a facilities ticket.,Facilities
+How do I request office cleaning?,Submit facilities request.,Facilities
+How do I request a parking pass?,Contact facilities team.,Facilities
+How do I report a water leak?,Raise urgent facilities ticket.,Facilities
+How do I request office supplies?,Submit facilities request form.,Facilities
+How do I access the building after hours?,Request access card permissions.,Facilities
+How do I report broken furniture?,Create facilities maintenance ticket.,Facilities
+How do I request workstation relocation?,Submit facilities request.,Facilities
+How do I report lighting issues?,Raise facilities ticket.,Facilities
+How do I request visitor access?,Use visitor management system.,Facilities
+How do I request office keys?,Contact facilities administrator.,Facilities
+How do I book a conference room?,Use meeting room reservation portal.,Facilities
+How do I report cafeteria issues?,Raise facilities feedback ticket.,Facilities
+How do I request ergonomic equipment?,Submit facilities request ticket.,Facilities
+How many annual leave days do I have?,Refer to HR policy handbook.,HR
+How do I apply for leave?,Submit leave request through HR portal.,HR
+How do I download payslips?,Login to employee portal and open payroll section.,HR
+How do I update bank details?,Contact HR with updated bank information.,HR
+What is maternity leave policy?,Refer to company leave policy document.,HR
+What is paternity leave policy?,Refer to HR handbook.,HR
+How do I apply for work from home?,Submit request through HR portal.,HR
+How do I update emergency contact details?,,
+How do I submit reimbursement claims?,Use reimbursement module in HR system.,HR
+How do I request an experience letter?,Raise HR request ticket.,HR
+How do I update personal information?,Edit profile in employee portal.,HR
+What is the notice period?,Refer to employment agreement.,HR
+How do I apply for internal transfer?,Contact HR business partner.,HR
+How do I access company policies?,Visit employee knowledge portal.,HR
+How do I report workplace issues?,Contact HR or raise confidential complaint.,HR
+How do I reset my password?,Use the Forgot Password option on the login page.,IT
+How do I connect to VPN?,Open VPN client and login using company credentials.,IT
+My VPN is not working,Restart VPN client and check internet connection.,IT
+How do I unlock my account?,Contact IT support to unlock your account.,IT
+How do I install company software?,Raise an IT ticket and request software installation.,IT
+How do I configure Outlook?,Use company email settings provided by IT.,IT
+How do I access shared drives?,Connect to company network and map shared drives.,IT
+My laptop is running slow,Restart the device and clear temporary files.,IT
+How do I update Windows?,Open Settings and check for updates.,IT
+How do I connect to office WiFi?,Use your employee credentials.,IT
+Printer is not working,Restart printer and check network connection.,IT
+How do I request a new laptop?,Create an IT asset request ticket.,IT
+How do I change my email signature?,Update signature from Outlook settings.,IT
+How do I access Microsoft Teams?,Login using your company email account.,IT
+How do I recover deleted files?,Contact IT support immediately.,IT
+How do I install a VPN client?,Download from company portal and install.,IT
+How do I access remote desktop?,Use VPN and remote desktop credentials.,IT
+How do I report phishing emails?,Forward suspicious emails to IT security.,IT
+How do I request software access?,Submit an IT access request ticket.,IT
+How do I change my password?,Use Ctrl+Alt+Delete and select Change Password.,IT
+How do I change my email password?,Change it through the company password management portal.,IT
+How do I request a new laptop?,Submit a hardware request ticket.,IT
+How do I request a new monitor?,Create an IT hardware request.,IT
+How do I request a keyboard?,Submit a hardware replacement request.,IT
+How do I request a mouse?,Submit a hardware replacement request.,IT
+My laptop battery drains quickly.,Reduce screen brightness and contact IT if the issue persists.,IT
+My laptop is frozen.,Press Ctrl+Alt+Delete and restart the device.,IT
+How do I connect to a projector?,Use an HDMI cable or wireless display option.,IT
+How do I install a printer?,Download the approved printer driver and follow setup instructions.,IT
+How do I scan a document?,Use the office scanner or multifunction printer.,IT
+How do I recover deleted files?,Check the recycle bin or contact IT support.,IT
+How do I access OneDrive?,Sign in using your company account.,IT
+OneDrive is not syncing.,Restart OneDrive and check internet connectivity.,IT
+How do I share files in OneDrive?,Use the Share option and assign permissions.,IT
+How do I access SharePoint?,Log in through the company SharePoint portal.,IT
+SharePoint site not loading.,Clear browser cache and try again.,IT
+How do I reset my VPN password?,Use the company password reset portal.,IT
+Remote desktop connection failed.,Verify VPN connectivity and remote access permissions.,IT
+How do I access company applications remotely?,Connect through VPN and use approved access tools.,IT
+How do I request remote access?,Submit a remote access request ticket.,IT
+How do I install approved software?,Request installation through the IT portal.,IT
+Software license expired.,Contact IT for license renewal assistance.,IT
+Application crashes frequently.,Reinstall the application or contact IT support.,IT
+How do I update my browser?,Use the browser update option in settings.,IT
+Browser is running slow.,Clear cache and disable unnecessary extensions.,IT
+How do I clear browser cookies?,Use the privacy settings in your browser.,IT
+Website is blocked.,Contact IT if business access is required.,IT
+How do I connect Bluetooth devices?,Enable Bluetooth and pair the device.,IT
+Bluetooth is not working.,Restart Bluetooth services and try again.,IT
+USB device not detected.,Reconnect the device and try another USB port.,IT
+External hard drive not recognized.,Reconnect the drive and check Disk Management.,IT
+How do I encrypt a USB drive?,Use company-approved encryption software.,IT
+How do I access the intranet?,Open the company intranet URL in your browser.,IT
+How do I report a phishing email?,Forward it to the IT security team.,IT
+I clicked a suspicious email link.,Disconnect from the network and contact IT immediately.,IT
+How do I enable multi-factor authentication?,Follow the MFA setup instructions provided by IT.,IT
+MFA code not received.,Verify your registered phone number and retry.,IT
+Authenticator app not working.,Resync the app or contact IT support.,IT
+How do I change my phone number for MFA?,Submit an IT support request.,IT
+How do I lock my computer?,Press Windows+L to lock your workstation.,IT
+How do I unlock BitLocker recovery?,Contact IT for the recovery key.,IT
+How do I check my computer name?,Open System Settings and view device information.,IT
+How do I rename my computer?,Contact IT for approval and assistance.,IT
+How do I access company WiFi?,Use your company credentials to connect.,IT
+Guest WiFi is not working.,Verify access details with reception or IT.,IT
+How do I connect to a docking station?,Connect the docking cable and install drivers if required.,IT
+Docking station not detecting monitors.,Reconnect cables and restart the dock.,IT
+How do I update device drivers?,Use Windows Update or approved IT tools.,IT
+Windows update failed.,Restart the device and try again.,IT
+How do I free disk space?,Delete unnecessary files and empty the recycle bin.,IT
+Disk space is full.,Remove unused files or request storage assistance.,IT
+How do I map a network drive?,Use File Explorer and enter the network path.,IT
+How do I access archived emails?,Use the archive mailbox feature in Outlook.,IT
+Outlook search not working.,Rebuild the Outlook search index.,IT
+How do I create an email signature?,Configure it through Outlook settings.,IT
+How do I schedule a Teams meeting?,Use the Calendar feature in Teams.,IT
+Teams keeps crashing.,Clear the Teams cache and restart the application.,IT
+How do I record a Teams meeting?,Use the Record option during the meeting.,IT
+How do I share my screen in Teams?,Select the Share Content option during a meeting.,IT
+How do I create a Teams channel?,Use the Create Channel option within a Team.,IT
+How do I install Zoom?,Submit an approved software installation request.,IT
+Zoom microphone not working.,Verify microphone permissions and settings.,IT
+Zoom camera not working.,Check camera permissions and restart Zoom.,IT
+How do I join a webinar?,Use the webinar invitation link provided.,IT
+How do I access company training materials?,Visit the learning management system portal.,HR
+How do I download my payslip?,Access the employee self-service portal.,HR
+How do I update personal information?,Update it through the HR portal.,HR
+How do I apply for leave?,Submit a leave request through the HR system.,HR
+How do I check leave balance?,View your balance in the HR portal.,HR
+How do I apply for work from home?,Submit a work-from-home request to your manager.,HR
+How do I view company policies?,Access the employee handbook portal.,HR
+How do I report workplace harassment?,Contact HR confidentially through the reporting process.,HR
+How do I enroll in benefits?,Use the employee benefits portal.,HR
+How do I update bank account details?,Submit the update through the HR system.,HR
+How do I access tax documents?,Download them from the employee portal.,HR
+How do I request an employment letter?,Submit a request through HR services.,HR
+How do I refer a candidate?,Use the employee referral portal.,HR
+How do I submit travel expenses?,Use the expense management system.,Finance
+How do I check reimbursement status?,View the status in the expense portal.,Finance
+How do I request a purchase order?,Submit a procurement request.,Finance
+How do I raise an invoice?,Use the finance system invoice module.,Finance
+How do I report a payment issue?,Contact the finance helpdesk.,Finance
+How do I request office supplies?,Submit a facilities request form.,Facilities
+How do I book a meeting room?,Use the meeting room reservation system.,Facilities
+How do I request office cleaning?,Submit a facilities service request.,Facilities
+How do I report broken furniture?,Create a facilities maintenance ticket.,Facilities
+How do I request a parking pass?,Contact the facilities administration team.,Facilities
+How do I request building access?,Submit an access card request.,Facilities
+How do I report lighting issues?,Raise a facilities maintenance ticket.,Facilities
+How do I request ergonomic equipment?,Submit a facilities request.,Facilities
+How do I report cafeteria issues?,Contact facilities support.,Facilities
+How do I request visitor access?,Use the visitor management system.,Facilities
+How do I reset my password?,Use the Forgot Password option on the login page.,IT
+How do I unlock my account?,Contact IT support to unlock your account.,IT
+How do I request VPN access?,Submit a VPN access request through the IT portal.,IT
+VPN is not connecting.,Restart the VPN client and verify your internet connection.,IT
+How do I install Microsoft Teams?,Create an IT ticket to request Microsoft Teams installation.,IT
+How do I access Outlook?,Open Outlook using your company email credentials.,IT
+Outlook is not opening.,Restart Outlook and check for updates.,IT
+Email not syncing.,Verify your internet connection and restart Outlook.,IT
+How do I configure email on mobile?,Follow the company mobile email setup guide.,IT
+Laptop is running slow.,Restart your laptop and close unnecessary applications.,IT
+Laptop restarts automatically.,Check for Windows updates and report the issue to IT support.,IT
+Laptop overheating.,Ensure ventilation is clear and contact IT if the issue persists.,IT
+Blue screen error.,Note the error code and contact IT support immediately.,IT
+Printer not printing.,Check printer connectivity and ensure paper is available.,IT
+Printer offline.,Reconnect the printer to the network and restart it.,IT
+WiFi keeps disconnecting.,Move closer to the access point and reconnect to WiFi.,IT
+Unable to connect WiFi.,Verify your credentials and restart the device.,IT
+Keyboard not working.,Reconnect the keyboard or replace batteries if wireless.,IT
+Mouse not working.,Reconnect the mouse and check battery levels if wireless.,IT
+Monitor not detected.,Check cable connections and restart the computer.,IT
+Dual monitor setup issue.,Verify display settings and monitor connections.,IT
+How do I request software installation?,Submit a software installation request through the IT portal.,IT
+How do I update Windows?,Go to Settings > Windows Update and install available updates.,IT
+How do I restart my computer remotely?,Use the approved remote management tool provided by IT.,IT
+Microsoft Teams microphone not working.,Check microphone permissions and Teams audio settings.,IT
+Camera not working in Teams.,Verify camera permissions and restart Teams.,IT
+Audio not working.,Check speaker settings and audio device connections.,IT
+File sharing issue.,Verify permissions and network connectivity.,IT
+Network drive unavailable.,Reconnect to the company network and remap the drive.,IT
+How do I access shared folders?,Connect to the company network and use the shared folder path.,IT

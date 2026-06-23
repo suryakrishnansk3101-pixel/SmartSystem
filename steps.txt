@@ -1,0 +1,15 @@
+mkdir backend
+cd backend
+python -m venv venv
+venv\Scripts\activate
+
+pip install fastapi uvicorn sqlalchemy psycopg2-binary
+pip install python-jose
+pip install passlib[bcrypt]
+pip install python-multipart
+pip install openai
+pip install langchain
+pip install chromadb
+pip install sentence-transformers
+pip install pypdf ipykernel
+uvicorn app.main:app --reload
